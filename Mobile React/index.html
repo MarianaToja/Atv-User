@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <!-- div.container -->
+    <div class="container">
+        <header>
+            <h1>Cadastro de usuários</h1>
+        </header>
+
+        <main>
+            <form>
+                <div class="form-control">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" minlength="4" maxlength="25" placeholder="Digite seu nome" />
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" minlength="12" placeholder="nome@example.com" />
+                </div>
+
+                <div class="form-control">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" maxlength="15" placeholder="(DDD + Número de telefone)" onkeyup="handlePhone(event)" />
+                </div>
+
+                <div class="form-button">
+                    <button>Cadastrar</button>
+                </div>
+            </form>
+
+            <ul class="lista">
+
+            </ul>
+        </main>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

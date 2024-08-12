@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10%;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #024791;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button button:hover {
+    background-color: #0056b3;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista li {
+    background: #f8f9fa;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista li span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.lista li .info-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.lista li .info-value {
+    color: #333;
+}
+
+
+.lista li .info {
+    margin-bottom: 0.5rem;
+}
+
+
+.lista li {
+    background: #f8f9fa;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+}
+
+.lista button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto */
+    justify-content: center; /* Centraliza horizontalmente o texto */
+}
+
+.lista button.delete {
+    background-color: darkred;
+    padding: 0.4rem 0.8rem; 
+}
+
+.lista button:hover {
+    opacity: 0.8;
+}
+
+.lista button.delete:hover {
+    background-color: #c82333;
+}
+
+.lista .info {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.lista .info-label {
+    font-weight: bold;
+    color: #000000;
+}
+
+.lista .info-value {
+    color: #333;
+}
